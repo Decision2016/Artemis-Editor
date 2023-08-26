@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556B69912A7DEC9D00ED386E /* Artemis_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B69902A7DEC9D00ED386E /* Artemis_EditorApp.swift */; };
+		556B69932A7DEC9D00ED386E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B69922A7DEC9D00ED386E /* ContentView.swift */; };
+		556B69952A7DEC9E00ED386E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556B69942A7DEC9E00ED386E /* Assets.xcassets */; };
+		556B69982A7DEC9E00ED386E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556B69972A7DEC9E00ED386E /* Preview Assets.xcassets */; };
+		556B69A32A7DEC9F00ED386E /* Artemis_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B69A22A7DEC9F00ED386E /* Artemis_EditorTests.swift */; };
+		556B69AD2A7DEC9F00ED386E /* Artemis_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B69AC2A7DEC9F00ED386E /* Artemis_EditorUITests.swift */; };
+		556B69AF2A7DEC9F00ED386E /* Artemis_EditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B69AE2A7DEC9F00ED386E /* Artemis_EditorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556B699F2A7DEC9F00ED386E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556B69852A7DEC9D00ED386E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556B698C2A7DEC9D00ED386E;
+			remoteInfo = "Artemis Editor";
+		};
+		556B69A92A7DEC9F00ED386E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556B69852A7DEC9D00ED386E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556B698C2A7DEC9D00ED386E;
+			remoteInfo = "Artemis Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		556B698D2A7DEC9D00ED386E /* Artemis Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artemis Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B69902A7DEC9D00ED386E /* Artemis_EditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artemis_EditorApp.swift; sourceTree = "<group>"; };
+		556B69922A7DEC9D00ED386E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		556B69942A7DEC9E00ED386E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556B69972A7DEC9E00ED386E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		556B69992A7DEC9E00ED386E /* Artemis_Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Artemis_Editor.entitlements; sourceTree = "<group>"; };
+		556B699E2A7DEC9F00ED386E /* Artemis EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artemis EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B69A22A7DEC9F00ED386E /* Artemis_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artemis_EditorTests.swift; sourceTree = "<group>"; };
+		556B69A82A7DEC9F00ED386E /* Artemis EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Artemis EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B69AC2A7DEC9F00ED386E /* Artemis_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artemis_EditorUITests.swift; sourceTree = "<group>"; };
+		556B69AE2A7DEC9F00ED386E /* Artemis_EditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artemis_EditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556B698A2A7DEC9D00ED386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B699B2A7DEC9F00ED386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B69A52A7DEC9F00ED386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556B69842A7DEC9D00ED386E = {
+			isa = PBXGroup;
+			children = (
+				556B698F2A7DEC9D00ED386E /* Artemis Editor */,
+				556B69A12A7DEC9F00ED386E /* Artemis EditorTests */,
+				556B69AB2A7DEC9F00ED386E /* Artemis EditorUITests */,
+				556B698E2A7DEC9D00ED386E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556B698E2A7DEC9D00ED386E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556B698D2A7DEC9D00ED386E /* Artemis Editor.app */,
+				556B699E2A7DEC9F00ED386E /* Artemis EditorTests.xctest */,
+				556B69A82A7DEC9F00ED386E /* Artemis EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556B698F2A7DEC9D00ED386E /* Artemis Editor */ = {
+			isa = PBXGroup;
+			children = (
+				556B69902A7DEC9D00ED386E /* Artemis_EditorApp.swift */,
+				556B69922A7DEC9D00ED386E /* ContentView.swift */,
+				556B69942A7DEC9E00ED386E /* Assets.xcassets */,
+				556B69992A7DEC9E00ED386E /* Artemis_Editor.entitlements */,
+				556B69962A7DEC9E00ED386E /* Preview Content */,
+			);
+			path = "Artemis Editor";
+			sourceTree = "<group>";
+		};
+		556B69962A7DEC9E00ED386E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				556B69972A7DEC9E00ED386E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		556B69A12A7DEC9F00ED386E /* Artemis EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				556B69A22A7DEC9F00ED386E /* Artemis_EditorTests.swift */,
+			);
+			path = "Artemis EditorTests";
+			sourceTree = "<group>";
+		};
+		556B69AB2A7DEC9F00ED386E /* Artemis EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556B69AC2A7DEC9F00ED386E /* Artemis_EditorUITests.swift */,
+				556B69AE2A7DEC9F00ED386E /* Artemis_EditorUITestsLaunchTests.swift */,
+			);
+			path = "Artemis EditorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556B698C2A7DEC9D00ED386E /* Artemis Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B69B22A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis Editor" */;
+			buildPhases = (
+				556B69892A7DEC9D00ED386E /* Sources */,
+				556B698A2A7DEC9D00ED386E /* Frameworks */,
+				556B698B2A7DEC9D00ED386E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artemis Editor";
+			productName = "Artemis Editor";
+			productReference = 556B698D2A7DEC9D00ED386E /* Artemis Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		556B699D2A7DEC9F00ED386E /* Artemis EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B69B52A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis EditorTests" */;
+			buildPhases = (
+				556B699A2A7DEC9F00ED386E /* Sources */,
+				556B699B2A7DEC9F00ED386E /* Frameworks */,
+				556B699C2A7DEC9F00ED386E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556B69A02A7DEC9F00ED386E /* PBXTargetDependency */,
+			);
+			name = "Artemis EditorTests";
+			productName = "Artemis EditorTests";
+			productReference = 556B699E2A7DEC9F00ED386E /* Artemis EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		556B69A72A7DEC9F00ED386E /* Artemis EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556B69B82A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis EditorUITests" */;
+			buildPhases = (
+				556B69A42A7DEC9F00ED386E /* Sources */,
+				556B69A52A7DEC9F00ED386E /* Frameworks */,
+				556B69A62A7DEC9F00ED386E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556B69AA2A7DEC9F00ED386E /* PBXTargetDependency */,
+			);
+			name = "Artemis EditorUITests";
+			productName = "Artemis EditorUITests";
+			productReference = 556B69A82A7DEC9F00ED386E /* Artemis EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556B69852A7DEC9D00ED386E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					556B698C2A7DEC9D00ED386E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					556B699D2A7DEC9F00ED386E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 556B698C2A7DEC9D00ED386E;
+					};
+					556B69A72A7DEC9F00ED386E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 556B698C2A7DEC9D00ED386E;
+					};
+				};
+			};
+			buildConfigurationList = 556B69882A7DEC9D00ED386E /* Build configuration list for PBXProject "Artemis Editor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556B69842A7DEC9D00ED386E;
+			productRefGroup = 556B698E2A7DEC9D00ED386E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556B698C2A7DEC9D00ED386E /* Artemis Editor */,
+				556B699D2A7DEC9F00ED386E /* Artemis EditorTests */,
+				556B69A72A7DEC9F00ED386E /* Artemis EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556B698B2A7DEC9D00ED386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B69982A7DEC9E00ED386E /* Preview Assets.xcassets in Resources */,
+				556B69952A7DEC9E00ED386E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B699C2A7DEC9F00ED386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B69A62A7DEC9F00ED386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556B69892A7DEC9D00ED386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B69932A7DEC9D00ED386E /* ContentView.swift in Sources */,
+				556B69912A7DEC9D00ED386E /* Artemis_EditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B699A2A7DEC9F00ED386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B69A32A7DEC9F00ED386E /* Artemis_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B69A42A7DEC9F00ED386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556B69AD2A7DEC9F00ED386E /* Artemis_EditorUITests.swift in Sources */,
+				556B69AF2A7DEC9F00ED386E /* Artemis_EditorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556B69A02A7DEC9F00ED386E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556B698C2A7DEC9D00ED386E /* Artemis Editor */;
+			targetProxy = 556B699F2A7DEC9F00ED386E /* PBXContainerItemProxy */;
+		};
+		556B69AA2A7DEC9F00ED386E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556B698C2A7DEC9D00ED386E /* Artemis Editor */;
+			targetProxy = 556B69A92A7DEC9F00ED386E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		556B69B02A7DEC9F00ED386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		556B69B12A7DEC9F00ED386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		556B69B32A7DEC9F00ED386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Artemis Editor/Artemis_Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artemis Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		556B69B42A7DEC9F00ED386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Artemis Editor/Artemis_Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artemis Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		556B69B62A7DEC9F00ED386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artemis Editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Artemis Editor";
+			};
+			name = Debug;
+		};
+		556B69B72A7DEC9F00ED386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artemis Editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Artemis Editor";
+			};
+			name = Release;
+		};
+		556B69B92A7DEC9F00ED386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Artemis Editor";
+			};
+			name = Debug;
+		};
+		556B69BA2A7DEC9F00ED386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H389AVA2B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.decision01.Artemis-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Artemis Editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556B69882A7DEC9D00ED386E /* Build configuration list for PBXProject "Artemis Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B69B02A7DEC9F00ED386E /* Debug */,
+				556B69B12A7DEC9F00ED386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B69B22A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B69B32A7DEC9F00ED386E /* Debug */,
+				556B69B42A7DEC9F00ED386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B69B52A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B69B62A7DEC9F00ED386E /* Debug */,
+				556B69B72A7DEC9F00ED386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556B69B82A7DEC9F00ED386E /* Build configuration list for PBXNativeTarget "Artemis EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556B69B92A7DEC9F00ED386E /* Debug */,
+				556B69BA2A7DEC9F00ED386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556B69852A7DEC9D00ED386E /* Project object */;
+}
